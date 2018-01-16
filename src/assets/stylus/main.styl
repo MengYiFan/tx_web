@@ -1,0 +1,122 @@
+html, body 
+  width 100%
+  -webkit-font-smoothing antialiased
+
+html, body, form, input, div, ul, li, ol, section, a, aside, button, br, canvas, header, footer, iframe, label, span, nav, option, select, p, pre, table, td, th, video, textarea, h1, h2, h3, h4, h5, h6, em, img 
+  margin 0
+  padding 0
+  border 0
+
+html 
+  background #FFF
+
+body 
+  position relative
+  font 14px "PingFangSC-Semibold", "Microsoft YaHei", "微软雅黑", "Lucida Grande", Helvetica, Arial, sans-serif
+  -webkit-tap-highlight-color rgba(0, 0, 0, 0)
+  -o-tap-highlight-color rgba(0, 0, 0, 0)
+  -webkit-text-size-adjust none
+
+  // max-width 10rem
+  // margin 0 auto
+
+a 
+  color #444
+  text-decoration none
+  outline none
+  cursor pointer
+  &:link 
+    text-decoration none
+  &:visited 
+    text-decoration none
+  &:hover 
+    background #f7f7f8
+  &:active 
+    background #888
+  
+::selection 
+  background-color #0088cc
+  color #FFFFFF
+
+input 
+  outline medium
+  // -webkit-appearance none
+
+input -webkit-outer-spin-button,
+input -webkit-inner-spin-button 
+  -webkit-appearance none
+
+    
+input[type="number"]
+  -moz-appearance textfield
+
+li 
+  list-style none
+
+textarea, input 
+  word-wrap break-word
+  word-break break-all
+  background transparent
+  resize none
+
+img[src=""] 
+  opacity 0
+
+img 
+  max-width 100%
+  border 0
+  vertical-align middle
+
+table 
+  border-collapse collapse
+  border-spacing 0
+
+p 
+  word-wrap break-word
+
+pre 
+  font-family "Microsoft YaHei", "微软雅黑", "Lucida Grande", Helvetica, Arial, sans-serif
+
+:-webkit-input-placeholder 
+  color #999 
+
+:-moz-placeholder 
+  color #999 
+
+:-moz-placeholder 
+  color #999 
+
+:-ms-input-placeholder 
+  color #999 
+  
+::-webkit-scrollbar
+  width 1px
+  background-color #ccc
+
+::-webkit-scrollbar-button
+  display none
+  
+::-webkit-scrollbar-thumb
+  background-color #666
+  
+.a-underline
+  text-decoration underline
+  
+.border-hover
+  transition .6s
+  &:hover
+    border-color #20a0ff
+    
+.shadow-hover
+  transition .6s
+  &:hover
+    box-shadow 0 4px 20px 0 #999
+
+textarea
+  resize none !important
+  
+.show
+  display block
+
+.hidden
+  display none
